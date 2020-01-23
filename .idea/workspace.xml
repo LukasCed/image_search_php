@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7db4813e-dcd2-40b3-a262-19a5eeb79418" name="Default Changelist" comment="" />
+    <list default="true" id="7db4813e-dcd2-40b3-a262-19a5eeb79418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/G4P89yuqui/ZzsWQ_d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/G4P89yuqui/vlcsnap-2019-05-11-23h23m56s306.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_image.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload_image.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +17,14 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1WIpN8Yww3n0sHDvw9vo0YE9luC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,7 +32,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -52,14 +65,21 @@
       <option name="presentableId" value="Default" />
       <updated>1578846923134</updated>
       <workItem from="1578846931206" duration="18623000" />
-      <workItem from="1579820996014" duration="269000" />
+      <workItem from="1579820996014" duration="2506000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579823028806">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.740@0.0.1366.740" timestamp="1579823028806" />
     <state x="362" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1579820994893">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
