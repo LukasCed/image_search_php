@@ -1,0 +1,39 @@
+<?php
+require_once 'galleries.php';
+
+function search_images_by_gallery_id() {
+    if(isset($_GET["id"]))
+    {
+        $id = $_GET["id"];
+        echo "<p>These are the images in gallery:</p>";
+
+        $link = open_connection();
+        $sql = "SELECT * FROM IMAGES.IMAGE_DATA as id
+        WHERE id.gallery_id = '$id'";
+
+        $images = mysqli_fetch_all(mysqli_query($link, $sql));
+
+        if (count($images) > 0) {
+            foreach ($images as $image) {
+                $imgStream = file_get_contents($image[1]);
+                $base64  = base64_encode($imgStream);
+                $nameExploded = explode("/", $image[1]);
+                $name = end($nameExploded);
+                echo "<img src='data:image/png;base64,".$base64."'/>";
+                echo "<p><b>Name:</b> $name </p>";
+                echo "<p><b>Tags:</b> $image[2] </p>";
+                echo "<p><b>Gallery: </b>".get_gallery_by_id($image[2])[1]."</p>";
+            }
+        } else {
+            echo "No images found";
+        }
+
+        close_connection($link);
+    }
+}
+
+search_images_by_gallery_id();
+
+?>
+
+
