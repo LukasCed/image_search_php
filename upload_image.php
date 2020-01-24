@@ -13,7 +13,7 @@ function upload_image() {
         if (!is_dir($target_directory) && !mkdir($target_directory)){
             die("Error creating folder $target_directory");
         } else {
-            chmod("$target_directory",0755);
+            chmod("$target_directory",0777);
         }
 
         $gallery = get_gallery_id_by_name($_POST['galleryName']);

@@ -11,6 +11,9 @@ function get_galleries() {
 }
 
 function get_gallery_id_by_name($name) {
+    if ($name == '' || $name == null) {
+        throw new Exception("Gallery name can't be empty!");
+    }
     $link = open_connection();
     $name = mysqli_real_escape_string($link, $name);
     $sql = "SELECT * FROM IMAGES.GALLERY WHERE name = '$name'";
@@ -29,6 +32,9 @@ function get_gallery_by_id($id) {
 }
 
 function create_gallery($name) {
+    if ($name == '' || $name == null) {
+        throw new Exception("Gallery name can't be empty!");
+    }
     $link = open_connection();
     $name = mysqli_real_escape_string($link, $name);
 
