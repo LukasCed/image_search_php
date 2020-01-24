@@ -2,6 +2,7 @@
 require_once 'utils.php';
 require_once 'databases.php';
 require_once 'galleries.php';
+require_once 'header.html';
 
 function search_image() {
     $link = open_connection();

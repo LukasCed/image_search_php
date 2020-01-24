@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db4813e-dcd2-40b3-a262-19a5eeb79418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pGkG17oAyB/ZzsWQ_d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pGkG17oAyB/tumblr_ntc1koq7hG1s8as3do1_500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit_image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit_image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ai8O7fOoDJ/baba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ai8O7fOoDJ/babe2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galleries.php" beforeDir="false" afterPath="$PROJECT_DIR$/galleries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G4P89yuqui/ZzsWQ_d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G4P89yuqui/vlcsnap-2019-05-11-23h23m56s306.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/open_gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_image.php" beforeDir="false" afterPath="$PROJECT_DIR$/search_image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload_image.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload_image.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578846923134</updated>
       <workItem from="1578846931206" duration="18623000" />
-      <workItem from="1579820996014" duration="3676000" />
+      <workItem from="1579820996014" duration="11071000" />
     </task>
     <servers />
   </component>
@@ -88,13 +91,17 @@
       <screen x="0" y="0" width="1366" height="740" />
     </state>
     <state x="362" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.740@0.0.1366.740" timestamp="1579820994893" />
-    <state x="345" y="163" key="run.anything.popup" timestamp="1578861603210">
+    <state x="360" y="0" width="645" height="740" key="find.popup" timestamp="1579826819215">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
-    <state x="345" y="163" key="run.anything.popup/0.0.1366.740@0.0.1366.740" timestamp="1578861603210" />
-    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1578852311178">
+    <state x="360" y="0" width="645" height="740" key="find.popup/0.0.1366.740@0.0.1366.740" timestamp="1579826819215" />
+    <state x="345" y="163" key="run.anything.popup" timestamp="1579831928381">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
-    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.0.1366.740@0.0.1366.740" timestamp="1578852311178" />
+    <state x="345" y="163" key="run.anything.popup/0.0.1366.740@0.0.1366.740" timestamp="1579831928381" />
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1579831194494">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.0.1366.740@0.0.1366.740" timestamp="1579831194494" />
   </component>
 </project>

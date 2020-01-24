@@ -2,6 +2,7 @@
 require 'utils.php';
 require 'databases.php';
 require 'galleries.php';
+require_once 'header.html';
 
 function upload_image() {
     $target_directory = "/opt/lampp/htdocs/task/images/".generateRandomString()."/";

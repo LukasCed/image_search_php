@@ -1,5 +1,7 @@
 <?php
 require_once 'galleries.php';
+require_once 'header.html';
+
 
 function search_images_by_gallery_id() {
     if(isset($_GET["id"]))
@@ -23,6 +25,7 @@ function search_images_by_gallery_id() {
                 echo "<p><b>Name:</b> $name </p>";
                 echo "<p><b>Tags:</b> $image[2] </p>";
                 echo "<p><b>Gallery: </b>".get_gallery_by_id($image[2])[1]."</p>";
+                echo '<a href="edit_image.php?id='.$image[0].'"><p>Edit image</p></a>';
             }
         } else {
             echo "No images found";
@@ -35,5 +38,3 @@ function search_images_by_gallery_id() {
 search_images_by_gallery_id();
 
 ?>
-
-
