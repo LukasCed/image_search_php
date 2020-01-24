@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db4813e-dcd2-40b3-a262-19a5eeb79418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/08lnppN2vI/ZzsWQ_d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/08lnppN2vI/tumblr_ntc1koq7hG1s8as3do1_500.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/open_gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ai8O7fOoDJ/baba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ai8O7fOoDJ/babe2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pGkG17oAyB/ZzsWQ_d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pGkG17oAyB/tumblr_ntc1koq7hG1s8as3do1_500.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +69,7 @@
       <updated>1578846923134</updated>
       <workItem from="1578846931206" duration="18623000" />
       <workItem from="1579820996014" duration="12660000" />
-      <workItem from="1579834559544" duration="2198000" />
+      <workItem from="1579834559544" duration="4956000" />
     </task>
     <servers />
   </component>
