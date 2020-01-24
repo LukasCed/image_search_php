@@ -37,5 +37,16 @@
     <p><input type="button" value="Edit Image" name="submit"
               onclick="onEdit('<?php echo $image["id"]?>',
               '<?php echo $image["tag"]?>',
-              '<?php echo $image["name"]?>')"/></form></p>
+              '<?php echo $image["name"]?>')"/>
+        <input type="button" onclick="delete_image('<?php echo $image["id"]?>')" value="Delete image"/>
+    </p>
+
+    <script>
+        function delete_image(id)
+        {
+            location.href = "delete_image.php?id=" + id;
+        }
+    </script>
 </form>
+
+

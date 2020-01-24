@@ -36,6 +36,7 @@ function search_image() {
             echo "<p><b>Name:</b> $name </p>";
             echo "<p><b>Tags:</b> $image[4] </p>";
             echo "<p><b>Gallery: </b>".get_gallery_by_id($image[2])[1]."</p>";
+            echo '<a href="edit_image.php?id='.$image[0].'"><p>Edit image</p></a>';
         }
     } else {
         echo "No images found";
